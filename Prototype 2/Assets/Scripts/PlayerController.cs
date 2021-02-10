@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        
+            //Uses spacebar to spawn projectile
         if(Input.GetKeyDown(KeyCode.Space))
     
         {

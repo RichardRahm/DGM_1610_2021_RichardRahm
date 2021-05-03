@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class MoveRight : MonoBehaviour
 {
-    public float speed = 15.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public float speed;
+    //makes money move right
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);

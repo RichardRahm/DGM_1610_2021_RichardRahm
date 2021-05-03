@@ -5,15 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject moneyPrefab;
-
     public bool isSlowEnough = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         //When player left clicks, they spawn money
